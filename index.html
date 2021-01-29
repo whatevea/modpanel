@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MODPANEL</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  
+<div class="main">
+<div class="topic">
+  <h3> DEVICE Ids and IP</h3>
+  <input type="text" id="pull_id" placeholder="Enter PageNo ">
+      <button onclick="pulldata()">Pull DeviceID </button>
+  <div class="hash_list">
+  <textarea id="textarea" disabled>
+Data :
+    
+    </textarea>
+  </div>
+</div>
+<div class="topic">
+  <h3>Paste the IP address or DeviceId/IP combination to block
+    <h3>
+      <input type="text" id="hash_id">
+      <button id="blckbtn" onclick="block()">BLOCK THIS</button>
+    </div>
+  </div>
+  <hr>
+  <hr>
+ 
+  <div class="account">
+    <h3>Account Generator</h3>
+    <input id="username" placeholder="Enter Username here">
+    <button onclick="generate()">GENERATE</button>
+  </div>
+  <hr>
+  <hr>
+<div class="pinboard">
+  <h3>
+  Enter Message to PIN 
+  </h3>
+   <input type="text" id="message">
+      <button onclick="pin()">PIN THIS</button>
+</div>
+  <hr>
+  <hr>
+  <div class="main">
+    <h3>Discuss Here</h3>
+    <iframe src="https://www6.cbox.ws/box/?boxid=855632&boxtag=Snvy2q" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
